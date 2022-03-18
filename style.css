@@ -1,0 +1,119 @@
+html { 
+	background-color: #B0E0E6;
+}
+
+body{
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+}
+
+/* Параметры текста */
+.main_text_h	{ 
+	text-align: center; 
+	font-family: Times;
+	color: #65000B;
+	font-weight: bold;
+	font-style: italic;
+}
+.main_text	{ 
+	text-align: center; 
+	font-family: Times; 
+	font-size: 14pt;
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 60em;
+}
+
+/* Цвет ссылок */
+.link{
+    color: #E9967A; 
+   }
+.link:visited{
+    color: #505050; 
+   }
+.link:hover{
+color: #FA5033;
+}
+
+/* Размер изображения и отступ по правому краю */
+.img_size{
+	width: 200px;
+	hight: 200px;
+margin-right: 50px;
+padding: 1px; /* Толщина рамки */
+background: #888; /* Цвет рамки */	
+}
+/* Настройки для изображения на вкладке "Обо мне" */
+.img_face{ 
+	background no-repeat center center;
+	width: 300px; 
+	hight: 500px; 
+	float:right; 
+	margin-left: 0px;
+	margin-right: 75px;
+	box-shadow: insert 0 0 1px rgba(0,0,0,.8),
+		insert 0 2px 0 rgba(255,255,255,.5),
+		insert 0 -1px 0 rgba(0,0,0,.4);
+	border-radius: 20px;
+}
+
+/* Настройки внешнего вида верхнего меню */
+.underlinemenu{
+font-weight: bold;
+width: 100%;
+}
+
+.underlinemenu ul{
+padding: 6px 0 7px 0; /*6px should equal top padding of "ul li a" below, 7px should equal bottom padding + bottom border of "ul li a" below*/
+margin: 0;
+text-align: center; 
+}
+
+.underlinemenu ul li{
+display: inline;
+}
+
+.underlinemenu ul li a{
+color: #494949;
+padding: 6px 3px 4px 3px; /*top padding is 6px, bottom padding is 4px*/
+margin-right: 20px; /*spacing between each menu link*/
+text-decoration: none;
+border-bottom: 3px solid gray; /*bottom border is 3px*/
+}
+
+.underlinemenu ul li a:hover, .underlinemenu ul li a.selected{
+color: black;
+border-bottom-color: black;
+}
+
+
+
+/* Оформление изображения под поларойдный снимок */
+.polaroid {
+display:block;
+margin:auto;
+text-align: center;
+}
+
+.polaroid img {
+border: 25px solid #fffff0;
+border-top-width: 25px;
+border-bottom-width: 65px;
+-webkit-box-shadow: 3px 3px 6px 4px #888;
+-moz-box-shadow: 3px 3px 6px 4px #888;
+box-shadow: 3px 3px 6px 4px #888;
+	
+}
+
+/* Шутка про Базза Лайтера */
+.joke span{
+    visibility: hidden;
+    position: absolute;
+    right: 200px;	
+}
+ 
+.joke:hover span{
+visibility: visible;
+}
