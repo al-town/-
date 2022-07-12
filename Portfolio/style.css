@@ -8,7 +8,7 @@ body{
 	line-height: 1.5em;
 }
 
-/* Параметры текста */
+/* text options */
 .main_text_h	{ 
 	text-align: center; 
 	font-family: Times;
@@ -26,7 +26,7 @@ body{
 	width: 60em;
 }
 
-/* Цвет ссылок */
+/* Links color */
 .link{
     color: #E9967A; 
    }
@@ -37,15 +37,15 @@ body{
 color: #FA5033;
 }
 
-/* Размер изображения и отступ по правому краю */
+/* Image size and right margin */
 .img_size{
 	width: 200px;
 	hight: 200px;
 margin-right: 50px;
-padding: 1px; /* Толщина рамки */
-background: #888; /* Цвет рамки */	
+padding: 1px; /* frame thickness */
+background: #888; /* frame color */	
 }
-/* Настройки для изображения на вкладке "Обо мне" */
+/* Image settings on the "About me" tab */
 .img_face{ 
 	background no-repeat center center;
 	width: 300px; 
@@ -59,7 +59,7 @@ background: #888; /* Цвет рамки */
 	border-radius: 20px;
 }
 
-/* Настройки внешнего вида верхнего меню */
+/* Top Menu Appearance Settings */
 .underlinemenu{
 font-weight: bold;
 width: 100%;
@@ -90,7 +90,7 @@ border-bottom-color: black;
 
 
 
-/* Оформление изображения под поларойдный снимок */
+/* Making an image look like a Polaroid */
 .polaroid {
 display:block;
 margin:auto;
@@ -107,7 +107,7 @@ box-shadow: 3px 3px 6px 4px #888;
 	
 }
 
-/* Шутка про Базза Лайтера */
+/*invisibility of joke about Buzz Lightyear*/
 .joke span{
     visibility: hidden;
     position: absolute;
